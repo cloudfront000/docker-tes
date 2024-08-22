@@ -1,0 +1,16 @@
+{
+  "name": "docker-runner",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A Node.js script to pull and run a Docker container with port binding and .env support.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dockerode": "^3.3.1",
+    "dotenv": "^16.3.1"
+  },
+  "author": "Guru",
+  "license": "MIT"
+}
